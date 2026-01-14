@@ -1,0 +1,11 @@
+{
+  "name": "wedding-venue-backend",
+  "version": "1.0.0",
+  "description": "Backend for wedding venue calendar sync and Stripe checkout",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0"
+  }
+}

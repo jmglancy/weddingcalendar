@@ -11,9 +11,9 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // ---- Pricing: the single source of truth. Update prices HERE. ----
 const PACKAGES = {
-  microwedding: { name: 'Microwedding',    basePrice: 2900, minNights: 2, maxNights: null },
-  classic:      { name: 'Classic Weekend', basePrice: 4500, minNights: 2, maxNights: 2 },
-  grand:        { name: 'Grand Weekend',   basePrice: 5000, minNights: 3, maxNights: null },
+  microwedding: { name: 'Microwedding', basePrice: 2750, minNights: 2, maxNights: null },
+  classic: { name: 'Classic Weekend', basePrice: 4000, minNights: 2, maxNights: 2 },
+  grand: { name: 'Grand Weekend', basePrice: 5000, minNights: 3, maxNights: null },
 };
 const EXTRA_NIGHT_RATE = 399; // per night beyond the package minimum
 const DEPOSIT_PERCENT = 0.50;
